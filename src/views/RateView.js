@@ -7,15 +7,15 @@ import Swal from "sweetalert2";
 
 function RateView() {
   const [rates, setRates] = useState();
-  const [firstExam, setFirstExam] = useState("");
-  const [rateId, setRateId] = useState("");
-  const [secondExam, setSecondExam] = useState("");
-  const [thirdExam, setThirdExam] = useState("");
-  const [firstHomework, setFirstHomework] = useState("");
-  const [secondHomework, setSecondHomework] = useState("");
-  const [projectHomework, setProjectHomework] = useState("");
-  const [studentDetail, setStudentDetail] = useState("");
-  const [finalRate, setFinalRate] = useState("");
+  const [firstExam, setFirstExam] = useState(null);
+  const [rateId, setRateId] = useState(null);
+  const [secondExam, setSecondExam] = useState(null);
+  const [thirdExam, setThirdExam] = useState(null);
+  const [firstHomework, setFirstHomework] = useState(null);
+  const [secondHomework, setSecondHomework] = useState(null);
+  const [projectHomework, setProjectHomework] = useState(null);
+  const [studentDetail, setStudentDetail] = useState(null);
+  const [finalRate, setFinalRate] = useState(null);
   //   const []
 
   const { studentId } = useParams();
