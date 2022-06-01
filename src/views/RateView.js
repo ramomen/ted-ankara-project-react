@@ -33,7 +33,7 @@ function RateView() {
     console.log(rateArray);
     const finalRates = [];
     rateArray.forEach((rate) => {
-      if (rate !== null) {
+      if (rate !== undefined) {
         finalRates.push(rate);
         console.log(finalRates, "foreach");
       }
